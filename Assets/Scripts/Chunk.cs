@@ -29,12 +29,12 @@ public class Chunk
         triangleForEachFace = new int[][]
         {
             new int[]{2, 1, 0, 3, 1, 2},
-            new int[]{0, 1, 4, 6, 4, 1},
-            new int[]{4, 2, 0, 2, 4, 5},
-            new int[]{7, 1, 3, 1, 7, 6},
-            new int[]{3, 2, 7, 5, 7, 2},
+            new int[]{3, 2, 7, 5, 7, 2}, //+x
+            new int[]{7, 1, 3, 1, 7, 6}, //+z
+            new int[]{0, 1, 4, 6, 4, 1}, //-x
+            new int[]{4, 2, 0, 2, 4, 5}, //-z
             new int[]{6, 5, 4, 6, 7, 5}
-        }; //D(NWES dunno)U
+        }; //DNESWU
         voxelVertices = new Vector3[]{
             new Vector3(0,0,0),
             new Vector3(0, 0, 1),
