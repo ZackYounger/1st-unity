@@ -11,7 +11,7 @@ public class MapGeneratorEditor : Editor
          DrawDefaultInspector();
          if (GUILayout.Button("Generate"))
          {
-             mapGenerator.GenerateCube();
+             mapGenerator.GenerateMap();
          }
     }
 }
